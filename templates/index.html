@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+    	#textarea{
+             margin-top: 100px;
+            margin-right: 30px;
+    </style>
+</head>
+<body>
+	<textarea  style="resize: none; text-align: center;" rows="10" cols="50" readonly id="textarea">{{sumith}}</textarea>
+	<form action="/button" method="POST">
+            <input type="submit" value="Compute" class="button" >
+            </form>
+            <img id="bigpic" src="{{url_for('static', filename='newImage.png')}}" style="display:none;"/>
+            <button onclick="picture()">Enlarge Image</button>
+
+<h1 style="width: 100x; height: 100px;">{{ sumith1 }}</h1>
+
+
+
+            <form action="/button1" method="POST">
+            	<input type="submit" value="Show items in Folder" class="button1">
+            </form>
+
+
+
+
+            <script type="text/javascript">
+
+        function picture(){ 
+        document.getElementById('bigpic').style.display='block';
+
+        }
+
+
+    </script>
+</body>
+</html>

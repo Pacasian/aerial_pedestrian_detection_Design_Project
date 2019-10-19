@@ -3,5 +3,5 @@
 
 #Important Plug-In
 Add the yolo weights and store it in static->yolo-coc->#SAVE HERE
-Download from the link below(its about 248 Mb)
+Download from the link below(its about 248 Mb) <break>
 https://drive.google.com/file/d/1APicKufkxSnCDw09NwFaE5gd092XEgXH/view?usp=sharing
